@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>자기소개 웹 페이지</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/51204ddc6e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="js/visit.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="inner">
+        <h1><a href="#">2024-1</a></h1>
+
+        <ul id="gnb">
+          <li><a href="#">HISTORY</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">YOUTUBE</a></li>
+          <li><a href="#">COMMUNITY</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+        </ul>
+
+        <ul class="util">
+          <li><a href="#">광운대학교</a></li>
+          <li><a href="#">정보융합학부</a></li>
+          <li><a href="#">DS</a></li>
+          <li><a href="#">2023204085</a></li>
+          <li><a href="#">윤예원</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <figure>
+      <video src="img/intro.mp4" autoplay muted loop></video>
+      <div class="inner">
+        <h1>WELCOME</h1>
+        <p>yewon's personal page</p>
+      </div>
+    </figure>
+
+    <section>
+      <article class="profile">
+        <img src="img/yewon.jpg" alt="프로필 이미지" />
+
+        <h1>윤예원</h1>
+        <h2>2023204085</h2>
+      </article>
+
+      <div class="inner">
+        <h1>RECENT TRAVEL</h1>
+        <div class="wrap">
+          <article>
+            <div class="pic">
+              <img src="img/travel4.jpg" alt="1번쨰 콘텐츠 이미지" />
+            </div>
+            <h2><a href="#">2024.05.03</a></h2>
+            <p>속초 당일치기</p>
+          </article>
+          <article>
+            <div class="pic">
+              <img src="img/travel3.jpg" alt="2번쨰 콘텐츠 이미지" />
+            </div>
+            <h2><a href="#">2024.01.20~2024.01.24</a></h2>
+            <p>일본 도쿄</p>
+          </article>
+          <article>
+            <div class="pic">
+              <img src="img/travel2.jpg" alt="3번쨰 콘텐츠 이미지" />
+            </div>
+            <h2><a href="#">2023.12.01</a></h2>
+            <p>더현대 크리스마스</p>
+          </article>
+          <article>
+            <div class="pic">
+              <img src="img/travel1.jpg" alt="4번쨰 콘텐츠 이미지" />
+            </div>
+            <h2><a href="#">2023.07.04~2023.07.12</a></h2>
+            <p>이탈리아, 스위스</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="inner">
+        <h1>HOBBY</h1>
+        <div class="wrap">
+          <article>
+            <div class="pic">
+              <img src="img/hobby1.jpg" alt="1번쨰 콘텐츠 이미지" />
+            </div>
+            <h2><a href="#">공연 보기</a></h2>
+          </article>
+          <article>
+            <div class="pic">
+              <img src="img/hobby2.jpg" alt="2번쨰 콘텐츠 이미지" />
+            </div>
+            <h2><a href="#">여행</a></h2>
+          </article>
+          <article>
+            <div class="pic">
+              <img src="img/hobby3.jpg" alt="3번쨰 콘텐츠 이미지" />
+            </div>
+            <h2><a href="#">방탈출</a></h2>
+          </article>
+          <article>
+            <div class="pic">
+              <img src="img/hobby4.jpg" alt="4번쨰 콘텐츠 이미지" />
+            </div>
+            <h2><a href="#">피겨스케이트</a></h2>
+          </article>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1>Visitor List</h1>
+
+        <input type="text" class="visit-input" placeholder="Add new visit" />
+
+        <div class="visits-container">
+          <div class="visit-item">
+            123
+            <button class="delete-btn">X</button>
+          </div>
+          <div class="visit-item">
+            123
+            <button class="delete-btn">X</button>
+          </div>
+          <div class="visit-item">
+            123
+            <button class="delete-btn">X</button>
+          </div>
+          <div class="visit-item">
+            123
+            <button class="delete-btn">X</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="inner">
+        <div class="upper">
+          <h1>YEWON</h1>
+          <ul>
+            <li><a href="#">Policy</a></li>
+            <li><a href="#">Family's Site</a></li>
+            <li><a href="#">Friend's Site</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+
+        <div class="lower">
+          <address>
+            SCHOOL : 서울특별시 노원구 광운로20<br />
+            SCHOOL TEL : 02-940-5114
+          </address>
+          <p>2024학년도 1학기; OSS TASK</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
